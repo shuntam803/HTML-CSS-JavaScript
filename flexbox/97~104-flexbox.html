@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox入門</title>
+  <style>
+    .container {
+      display: flex;
+      /* flex-directionとflex-wrapをまとめて指定できる */
+      /* flex-flow: nowrap; */
+      flex-flow: row-reverse wrap;
+      /* height: 100vh; */
+      /* flex-wrap: wrap; */
+      /* 子要素の折り返し */
+      /* flex-wrap: nowrap; */
+      /* flex-wrap: wrap; */
+      /* flex-wrap: wrap-reverse; */
+      /* 子要素の並ぶ向き */
+      /* flex-direction: row; */
+      /* flex-direction: row-reverse; */
+      /* flex-direction: column; */
+      /* flex-direction: column-reverse; */
+      /* 子要素の水平方向の揃えを指定 */
+      /* justify-content: flex-start; */
+      /* justify-content: flex-end; */
+      /* justify-content: center; */
+      /* justify-content: space-between; */
+      /* justify-content: space-around; */
+      /* justify-content: space-evenly; */
+      /* 子要素の垂直方向の揃えを指定 */
+      /* align-items: stretch; */
+      /* align-items: flex-start; */
+      /* align-items: flex-end; */
+      /* align-items: center; */
+      /* align-items: baseline; */
+      /* 子要素の複数行の揃えを指定 */
+      /* align-content: stretch; */
+      /* align-content: flex-start; */
+      /* align-content: flex-end; */
+      /* align-content: center; */
+      /* align-content: space-between; */
+      /* align-content: space-around; */
+    }
+
+    .item {
+      background-color: #ffa61c;
+      margin: 10px;
+      padding: 20px;
+    }
+
+    /* .lg {
+      font-size: xx-large;
+    } */
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="item">item01</div>
+    <div class="item">item02</div>
+    <div class="item">item03</div>
+    <div class="item">item04</div>
+    <div class="item">item05</div>
+    <div class="item">item06</div>
+    <div class="item">item07</div>
+    <div class="item">item08</div>
+    <div class="item">item09</div>
+    <div class="item">item10</div>
+    <div class="item">item11</div>
+    <div class="item">item12</div>
+    <div class="item">item13</div>
+    <div class="item">item14</div>
+    <div class="item">item15</div>
+    <div class="item">item16</div>
+    <div class="item">item17</div>
+    <div class="item">item18</div>
+
+  </div>
+</body>
+
+</html>
